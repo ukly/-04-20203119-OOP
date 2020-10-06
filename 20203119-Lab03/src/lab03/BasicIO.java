@@ -13,16 +13,16 @@ class BasicIO {
 		String name = stdin.nextLine();
 		
 		System.out.print("Enter your age: ");
-		int year = stdin.nextInt();
+		int years = stdin.nextInt();
 		
 		System.out.print("Enter your height: ");
 		int height = stdin.nextInt();
 		
 		//display output on console
 		System.out.println("your name is " + name);
-		System.out.println("your age is " + year);
-		System.out.println("your age of day is " + year*365);
-		System.out.printf("%s 현재 %s(%d)의 키는 %d cm 입니다", "2020년 09월 25일" ,name, year, height);
+		System.out.println("your age is " + years);
+		System.out.println("your age of day is " + years*365);
+		System.out.printf("%s 현재 %s(%d)의 키는 %d cm 입니다", "2020년 09월 25일" ,name, years, height);
 		
 		
 	} // method main
